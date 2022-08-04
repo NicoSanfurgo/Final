@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@300;700&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+.body {
+  width: 100%;
+  background-image: url(../multimedia/background-mapa.jpg); }
+  .body ul {
+    margin: 0;
+    padding: 0;
+    float: left; }
+    .body ul li {
+      display: inline; }
+      .body ul li a {
+        float: left;
+        text-decoration: none;
+        color: white;
+        padding: 10.5px 11px;
+        background-color: #005555; }
+        .body ul li a:visited {
+          color: white; }
+        .body ul li a:hover {
+          color: white;
+          background-color: #5FD367; }
+      .body ul li .current {
+        color: white;
+        background-color: #5FD367; }
