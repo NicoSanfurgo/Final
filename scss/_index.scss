@@ -1,5 +1,8 @@
+/*INDEX*/
 .body{
 	background-image: linear-gradient( 109.6deg,  rgba(0,0,0,1) 11.2%, rgba(11,132,145,1) 91.1% );
+
+	#letra{color: $letra;}
 
 	.Logo{
 		width: 150px;
@@ -20,18 +23,15 @@
 	#tiy{
 		color: $letra;
 	}
+	.flexPadre{ display: flex;}
 	.contenedorBase{
 		background-image: url(../multimedia/Background.png);
 		background-repeat: no-repeat;
-
-		.flexPadre{
-			display: flex;
 
 			.inicio{
 				font-family:'Stick No Bills', sans-serif;
 				font-size: 120px;
 				font-style: black;
 			}
-		}
 	}
 }

@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@300;700&display=swap");
+/*MAPA*/
 .map {
   background-image: url(../multimedia/section-multimedia/game-16.jpg);
   background-repeat: no-repeat; }
@@ -9,6 +10,7 @@
     border: 4px solid #02181a;
     margin: auto; }
 
+/*CONTACTO*/
 .bodyFoot {
   background-image: url(../multimedia/background-mapa.jpg);
   background-repeat: no-repeat; }
@@ -40,8 +42,11 @@
         text-transform: uppercase;
         font-size: 15px; }
 
+/*INDEX*/
 .body {
   background-image: linear-gradient(109.6deg, black 11.2%, #0b8491 91.1%); }
+  .body #letra {
+    color: aliceblue; }
   .body .Logo {
     width: 150px; }
   .body .medida1 {
@@ -56,16 +61,17 @@
     border: 3px solid #02181a; }
   .body #tiy {
     color: aliceblue; }
+  .body .flexPadre {
+    display: flex; }
   .body .contenedorBase {
     background-image: url(../multimedia/Background.png);
     background-repeat: no-repeat; }
-    .body .contenedorBase .flexPadre {
-      display: flex; }
-      .body .contenedorBase .flexPadre .inicio {
-        font-family: 'Stick No Bills', sans-serif;
-        font-size: 120px;
-        font-style: black; }
+    .body .contenedorBase .inicio {
+      font-family: 'Stick No Bills', sans-serif;
+      font-size: 120px;
+      font-style: black; }
 
+/*MEDIA QUERIES*/
 @media (max-width: 1090px) {
   .contenedorBase {
     display: none; }
@@ -111,6 +117,7 @@
     grid-template-areas: "navegacion navegacion navegacion" "variado variado variado" "main main main" "a b" "c d" "e f" "g h" "i j";
     gap: 15px; } }
 
+/*MULTIMEDIA*/
 .multi {
   background-image: linear-gradient(109.6deg, black 11.2%, #0b8491 91.1%); }
   .multi #letra {
@@ -133,6 +140,7 @@
     border: #02181a solid 4px;
     width: 1000px; }
 
+/*MERCHANDISING*/
 .merch {
   background-color: #02181a; }
   .merch #letra {
