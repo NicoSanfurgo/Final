@@ -1,28 +1,149 @@
 @import url("https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@300;700&display=swap");
+.map {
+  background-image: url(../multimedia/section-multimedia/game-16.jpg);
+  background-repeat: no-repeat; }
+  .map #letra {
+    color: aliceblue; }
+  .map .navCherno {
+    background-color: #02181a;
+    border: 4px solid #02181a;
+    margin: auto; }
+
+.bodyFoot {
+  background-image: url(../multimedia/background-mapa.jpg);
+  background-repeat: no-repeat; }
+  .bodyFoot #letra {
+    color: aliceblue; }
+  .bodyFoot #letraFont {
+    color: aliceblue;
+    font-size: 20px; }
+  .bodyFoot .legend {
+    text-transform: uppercase; }
+  .bodyFoot .contactInfo {
+    background: #065220;
+    background: linear-gradient(305deg, rgba(6, 82, 32, 0.58027) 0%, rgba(7, 68, 41, 0.675508) 50%, rgba(5, 71, 43, 0.585872) 100%); }
+    .bodyFoot .contactInfo .relleno {
+      background-image: linear-gradient(109.6deg, black 11.2%, #0b8491 91.1%);
+      width: 400px;
+      padding: 30px;
+      margin: auto;
+      margin-top: 60px;
+      border-radius: 10px;
+      box-shadow: 5px 10px 35px #000; }
+      .bodyFoot .contactInfo .relleno .boton {
+        width: 50%;
+        height: 35px;
+        margin-top: 10px;
+        margin-left: 100px;
+        border-radius: 20px;
+        border: none;
+        text-transform: uppercase;
+        font-size: 15px; }
+
+.body {
+  background-image: linear-gradient(109.6deg, black 11.2%, #0b8491 91.1%); }
+  .body .Logo {
+    width: 150px; }
+  .body .medida1 {
+    width: 350px;
+    border-radius: 4px;
+    border: 4px solid #02181a; }
+  .body .medida2 {
+    width: 550px;
+    border-radius: 4px;
+    border: 4px solid #02181a; }
+  .body .seccion1 {
+    border: 3px solid #02181a; }
+  .body #tiy {
+    color: aliceblue; }
+  .body .contenedorBase {
+    background-image: url(../multimedia/Background.png);
+    background-repeat: no-repeat; }
+    .body .contenedorBase .flexPadre {
+      display: flex; }
+      .body .contenedorBase .flexPadre .inicio {
+        font-family: 'Stick No Bills', sans-serif;
+        font-size: 120px;
+        font-style: black; }
+
+@media (max-width: 1090px) {
+  .contenedorBase {
+    display: none; }
+  #medios {
+    display: none; }
+  .flexPadre {
+    flex-wrap: wrap; }
+  #tiy {
+    display: block; }
+  .multimedia {
+    display: grid;
+    grid-template-areas: "navegacion navegacion navegacion" "variado variado variado" "main main main" "a b" "c d" "e f" "g h" "i ";
+    gap: 15px; }
+  .map {
+    display: grid;
+    grid-template-areas: "barra" "inicio" "zona" "inicio"; }
+  .contacto {
+    display: inline; } }
+
+@media (max-width: 768px) {
+  .inicio {
+    display: none; }
+  #medios {
+    display: none; }
+  .flexPadre {
+    flex-wrap: nowrap; }
+  #imgInicio {
+    display: none; }
+  .map {
+    display: grid;
+    grid-template-areas: "inicio" "navCherno"; }
+  .contacto {
+    display: grid;
+    grid-template-areas: "contactInfo ContactInfo" "relleno relleno"; }
+  .multimedia {
+    display: grid;
+    grid-template-areas: "navegacion navegacion navegacion" "variado variado variado" "main main main" "a b" "c d" "e f" "g h" "i j";
+    gap: 15px; } }
+
+@media (min-width: 768px) {
+  .multimedia {
+    display: grid;
+    grid-template-areas: "navegacion navegacion navegacion" "variado variado variado" "main main main" "a b" "c d" "e f" "g h" "i j";
+    gap: 15px; } }
+
+.multi {
+  background-image: linear-gradient(109.6deg, black 11.2%, #0b8491 91.1%); }
+  .multi #letra {
+    color: aliceblue; }
+  .multi .roll {
+    text-align: center;
+    width: 700px;
+    margin: auto;
+    box-shadow: #000 10px 15px 8px 2px; }
+  .multi .roll2 {
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    box-shadow: #000 10px 15px 8px 2px; }
+  .multi .ilust {
+    text-align: center; }
+  .multi .multi3 {
+    box-shadow: #000 10px 15px 8px 2px;
+    border-radius: 13px;
+    border: #02181a solid 4px;
+    width: 1000px; }
+
+.merch {
+  background-color: #02181a; }
+  .merch #letra {
+    color: aliceblue; }
+  .merch #mercha {
+    margin-left: 150px; }
+  .merch #toping {
+    margin-top: 25px; }
+  .merch #toping2 {
+    margin-top: 55px; }
+
 * {
   margin: 0;
   padding: 0; }
-
-.body {
-  width: 100%;
-  background-image: url(../multimedia/background-mapa.jpg); }
-  .body ul {
-    margin: 0;
-    padding: 0;
-    float: left; }
-    .body ul li {
-      display: inline; }
-      .body ul li a {
-        float: left;
-        text-decoration: none;
-        color: white;
-        padding: 10.5px 11px;
-        background-color: #005555; }
-        .body ul li a:visited {
-          color: white; }
-        .body ul li a:hover {
-          color: white;
-          background-color: #5FD367; }
-      .body ul li .current {
-        color: white;
-        background-color: #5FD367; }

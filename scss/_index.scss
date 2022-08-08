@@ -1,29 +1,36 @@
-.body {
-	width: 100%;
-	background-color: #005555;
-	ul {
-		margin: 0;
-		padding: 0;
-		float: left;
-		li {
-			display: inline;
-			a {
-				float: left;
-				text-decoration: none;
-				color: white;
-				padding: 10.5px 11px;
-				background-color: #005555;
-				&:visited {
-					color: white;
-				}
-				&:hover {
-					color: white;
-					background-color: #5FD367;
-				}
-			}
-			.current {
-				color: white;
-				background-color: #5FD367;
+.body{
+	background-image: linear-gradient( 109.6deg,  rgba(0,0,0,1) 11.2%, rgba(11,132,145,1) 91.1% );
+
+	.Logo{
+		width: 150px;
+	}
+	.medida1{
+		width: 350px;
+		border-radius: $radius;
+		border: $border;
+	}
+	.medida2{
+		width: 550px;
+		border-radius: $radius;
+		border: $border;
+	}
+	.seccion1{
+		border: 3px solid #02181a;
+	}
+	#tiy{
+		color: $letra;
+	}
+	.contenedorBase{
+		background-image: url(../multimedia/Background.png);
+		background-repeat: no-repeat;
+
+		.flexPadre{
+			display: flex;
+
+			.inicio{
+				font-family:'Stick No Bills', sans-serif;
+				font-size: 120px;
+				font-style: black;
 			}
 		}
 	}
