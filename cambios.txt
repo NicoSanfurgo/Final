@@ -1,0 +1,17 @@
+index
+Agregue header y footer
+Borre h2 de mas
+
+multimedia
+Agregue footer
+
+Merch
+Agregue footer
+Borre h1 de mas
+
+Contacto
+Agregue footer
+Quite "br", espacios
+
+Mapa
+Agregue footer
