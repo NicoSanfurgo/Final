@@ -1,17 +1,17 @@
 index
-Agregue header y footer
+Agregue header, footer, meta description, keywords
 Borre h2 de mas
 
 multimedia
-Agregue footer
+Agregue footer, meta description, keywords
 
 Merch
-Agregue footer
+Agregue footer, meta description, keywords
 Borre h1 de mas
 
 Contacto
-Agregue footer
+Agregue footer, meta description
 Quite "br", espacios
 
 Mapa
-Agregue footer
+Agregue footer, meta description, keywords
