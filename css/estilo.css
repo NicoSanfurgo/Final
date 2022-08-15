@@ -12,8 +12,7 @@
 
 /*CONTACTO*/
 .bodyFoot {
-  background-image: url(../multimedia/background-mapa.jpg);
-  background-repeat: no-repeat; }
+  background-image: linear-gradient( 109.6deg,  rgba(0,0,0,1) 11.2%, rgba(11,132,145,1) 91.1% ); }
   .bodyFoot #letra {
     color: aliceblue; }
   .bodyFoot #letraFont {
@@ -83,11 +82,21 @@
     display: block; }
   .multimedia {
     display: grid;
-    grid-template-areas: "navegacion navegacion navegacion" "variado variado variado" "main main main" "a b" "c d" "e f" "g h" "i ";
+    grid-template-areas: "navegacion navegacion navegacion"
+ "variado variado variado"
+ "main main main"
+ "a b"
+ "c d"
+ "e f"
+ "g h"
+ "i ";
     gap: 15px; }
   .map {
     display: grid;
-    grid-template-areas: "barra" "inicio" "zona" "inicio"; }
+    grid-template-areas: "barra"
+ "inicio"
+ "zona"
+ "inicio"; }
   .contacto {
     display: inline; } }
 
@@ -102,19 +111,35 @@
     display: none; }
   .map {
     display: grid;
-    grid-template-areas: "inicio" "navCherno"; }
+    grid-template-areas: "inicio"
+ "navCherno"; }
   .contacto {
     display: grid;
-    grid-template-areas: "contactInfo ContactInfo" "relleno relleno"; }
+    grid-template-areas: "contactInfo ContactInfo"
+ "relleno relleno"; }
   .multimedia {
     display: grid;
-    grid-template-areas: "navegacion navegacion navegacion" "variado variado variado" "main main main" "a b" "c d" "e f" "g h" "i j";
+    grid-template-areas: "navegacion navegacion navegacion"
+ "variado variado variado"
+ "main main main"
+ "a b"
+ "c d"
+ "e f"
+ "g h"
+ "i j";
     gap: 15px; } }
 
 @media (min-width: 768px) {
   .multimedia {
     display: grid;
-    grid-template-areas: "navegacion navegacion navegacion" "variado variado variado" "main main main" "a b" "c d" "e f" "g h" "i j";
+    grid-template-areas: "navegacion navegacion navegacion"
+ "variado variado variado"
+ "main main main"
+ "a b"
+ "c d"
+ "e f"
+ "g h"
+ "i j";
     gap: 15px; } }
 
 /*MULTIMEDIA*/
