@@ -4,23 +4,30 @@
 
 	#letra{color: $letra;}
 
-	@mixin roll {
+	.roll {
 		text-align: center;
     	width: 700px;
     	margin: auto;
-		box-shadow: map-get($map: $boxing, $key: box-shadow);
+		box-shadow: $box;
 	}
 	.roll2{
-		@include roll;
+		text-align: center;
+    	width: 700px;
+    	margin: auto;
+		box-shadow: $box;
     	width: 500px;
 	}
 	.ilust{
 		text-align: center;
 	}
 	.multi3{
-		box-shadow: map-get($map: $boxing, $key: box-shadow);
+		box-shadow: $box;
 		border-radius: 13px;
     	border: #02181a solid 4px;
     	width: 1000px;
+	}
+	.container{
+		font-style: black;
+		text-align: center;
 	}
 }

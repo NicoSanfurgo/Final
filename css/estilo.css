@@ -12,7 +12,7 @@
 
 /*CONTACTO*/
 .bodyFoot {
-  background-image: linear-gradient( 109.6deg,  rgba(0,0,0,1) 11.2%, rgba(11,132,145,1) 91.1% ); }
+  background-image: linear-gradient(109.6deg, black 11.2%, #0b8491 91.1%); }
   .bodyFoot #letra {
     color: aliceblue; }
   .bodyFoot #letraFont {
@@ -20,26 +20,6 @@
     font-size: 20px; }
   .bodyFoot .legend {
     text-transform: uppercase; }
-  .bodyFoot .contactInfo {
-    background: #065220;
-    background: linear-gradient(305deg, rgba(6, 82, 32, 0.58027) 0%, rgba(7, 68, 41, 0.675508) 50%, rgba(5, 71, 43, 0.585872) 100%); }
-    .bodyFoot .contactInfo .relleno {
-      background-image: linear-gradient(109.6deg, black 11.2%, #0b8491 91.1%);
-      width: 400px;
-      padding: 30px;
-      margin: auto;
-      margin-top: 60px;
-      border-radius: 10px;
-      box-shadow: 5px 10px 35px #000; }
-      .bodyFoot .contactInfo .relleno .boton {
-        width: 50%;
-        height: 35px;
-        margin-top: 10px;
-        margin-left: 100px;
-        border-radius: 20px;
-        border: none;
-        text-transform: uppercase;
-        font-size: 15px; }
 
 /*INDEX*/
 .body {
@@ -82,21 +62,11 @@
     display: block; }
   .multimedia {
     display: grid;
-    grid-template-areas: "navegacion navegacion navegacion"
- "variado variado variado"
- "main main main"
- "a b"
- "c d"
- "e f"
- "g h"
- "i ";
+    grid-template-areas: "navegacion navegacion navegacion" "variado variado variado" "main main main" "a b" "c d" "e f" "g h" "i ";
     gap: 15px; }
   .map {
     display: grid;
-    grid-template-areas: "barra"
- "inicio"
- "zona"
- "inicio"; }
+    grid-template-areas: "barra" "inicio" "zona" "inicio"; }
   .contacto {
     display: inline; } }
 
@@ -110,36 +80,21 @@
   #imgInicio {
     display: none; }
   .map {
+    font-size: 30px;
     display: grid;
-    grid-template-areas: "inicio"
- "navCherno"; }
+    grid-template-areas: "inicio" "navCherno"; }
   .contacto {
     display: grid;
-    grid-template-areas: "contactInfo ContactInfo"
- "relleno relleno"; }
+    grid-template-areas: "contactInfo ContactInfo" "relleno relleno"; }
   .multimedia {
     display: grid;
-    grid-template-areas: "navegacion navegacion navegacion"
- "variado variado variado"
- "main main main"
- "a b"
- "c d"
- "e f"
- "g h"
- "i j";
+    grid-template-areas: "navegacion navegacion navegacion" "variado variado variado" "main main main" "a b" "c d" "e f" "g h" "i j";
     gap: 15px; } }
 
 @media (min-width: 768px) {
   .multimedia {
     display: grid;
-    grid-template-areas: "navegacion navegacion navegacion"
- "variado variado variado"
- "main main main"
- "a b"
- "c d"
- "e f"
- "g h"
- "i j";
+    grid-template-areas: "navegacion navegacion navegacion" "variado variado variado" "main main main" "a b" "c d" "e f" "g h" "i j";
     gap: 15px; } }
 
 /*MULTIMEDIA*/
@@ -154,9 +109,10 @@
     box-shadow: #000 10px 15px 8px 2px; }
   .multi .roll2 {
     text-align: center;
-    width: 500px;
+    width: 700px;
     margin: auto;
-    box-shadow: #000 10px 15px 8px 2px; }
+    box-shadow: #000 10px 15px 8px 2px;
+    width: 500px; }
   .multi .ilust {
     text-align: center; }
   .multi .multi3 {
@@ -164,6 +120,9 @@
     border-radius: 13px;
     border: #02181a solid 4px;
     width: 1000px; }
+  .multi .container {
+    font-style: black;
+    text-align: center; }
 
 /*MERCHANDISING*/
 .merch {
@@ -171,13 +130,17 @@
   .merch #letra {
     color: aliceblue; }
   .merch #mercha {
-    margin-left: 150px; }
+    margin-left: 50px;
+    text-align: center; }
   .merch #toping {
-    margin-top: 25px; }
+    margin-top: 25px;
+    width: 50rem; }
   .merch #toping2 {
-    margin-top: 55px; }
+    margin-top: 55px;
+    width: 50rem; }
+  .merch #imag {
+    width: 550px; }
 
-/*MAP - GET*/
 * {
   margin: 0;
   padding: 0; }
