@@ -15,14 +15,11 @@
     .multimedia{
         display: grid;
         grid-template-areas:
-        "navegacion navegacion navegacion"
-        "variado variado variado"
-        "main main main"
-        "a b"
-        "c d"
-        "e f"
-        "g h"
-        "i ";
+        "footer"
+        "navegacion"
+        "roll2"
+        "roll"
+        "ilust";
         gap: 15px;
     }
     .map {
@@ -58,23 +55,13 @@
         "inicio"
         "navCherno";
     }
-    .contacto{
-        display: grid;
-        grid-template-areas: 
-        "contactInfo ContactInfo"
-        "relleno relleno";
-    }
     .multimedia{
         display: grid;
         grid-template-areas:
-        "navegacion navegacion navegacion"
-        "variado variado variado"
-        "main main main"
-        "a b"
-        "c d"
-        "e f"
-        "g h"
-        "i j";
+        "navegacion"
+        "roll2"
+        "roll"
+        "ilust";
         gap: 15px;
     }
 }
@@ -83,14 +70,10 @@
     .multimedia{
         display: grid;
         grid-template-areas:
-        "navegacion navegacion navegacion"
-        "variado variado variado"
-        "main main main"
-        "a b"
-        "c d"
-        "e f"
-        "g h"
-        "i j";
+        "navegacion"
+        "roll2"
+        "roll"
+        "ilust";
         gap: 15px;
     }
 }

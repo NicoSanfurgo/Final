@@ -62,7 +62,7 @@
     display: block; }
   .multimedia {
     display: grid;
-    grid-template-areas: "navegacion navegacion navegacion" "variado variado variado" "main main main" "a b" "c d" "e f" "g h" "i ";
+    grid-template-areas: "footer" "navegacion" "roll2" "roll" "ilust";
     gap: 15px; }
   .map {
     display: grid;
@@ -83,18 +83,15 @@
     font-size: 30px;
     display: grid;
     grid-template-areas: "inicio" "navCherno"; }
-  .contacto {
-    display: grid;
-    grid-template-areas: "contactInfo ContactInfo" "relleno relleno"; }
   .multimedia {
     display: grid;
-    grid-template-areas: "navegacion navegacion navegacion" "variado variado variado" "main main main" "a b" "c d" "e f" "g h" "i j";
+    grid-template-areas: "navegacion" "roll2" "roll" "ilust";
     gap: 15px; } }
 
 @media (min-width: 768px) {
   .multimedia {
     display: grid;
-    grid-template-areas: "navegacion navegacion navegacion" "variado variado variado" "main main main" "a b" "c d" "e f" "g h" "i j";
+    grid-template-areas: "navegacion" "roll2" "roll" "ilust";
     gap: 15px; } }
 
 /*MULTIMEDIA*/
@@ -104,31 +101,30 @@
     color: aliceblue; }
   .multi .roll {
     text-align: center;
-    width: 700px;
+    width: 45%;
     margin: auto;
     box-shadow: #000 10px 15px 8px 2px; }
   .multi .roll2 {
     text-align: center;
-    width: 700px;
     margin: auto;
     box-shadow: #000 10px 15px 8px 2px;
-    width: 500px; }
+    width: 40%; }
   .multi .ilust {
     text-align: center; }
   .multi .multi3 {
     box-shadow: #000 10px 15px 8px 2px;
     border-radius: 13px;
     border: #02181a solid 4px;
-    width: 1000px; }
-  .multi .container {
-    font-style: black;
-    text-align: center; }
+    width: 60%; }
 
 /*MERCHANDISING*/
 .merch {
   background-color: #02181a; }
   .merch #letra {
     color: aliceblue; }
+  .merch #letra2 {
+    color: antiquewhite;
+    font-size: 30px; }
   .merch #mercha {
     margin-left: 50px;
     text-align: center; }

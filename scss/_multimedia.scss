@@ -6,16 +6,15 @@
 
 	.roll {
 		text-align: center;
-    	width: 700px;
-    	margin: auto;
+    	width: 45%;
+		margin: auto;
 		box-shadow: $box;
 	}
 	.roll2{
 		text-align: center;
-    	width: 700px;
-    	margin: auto;
+		margin: auto;
 		box-shadow: $box;
-    	width: 500px;
+    	width: 40%;
 	}
 	.ilust{
 		text-align: center;
@@ -24,10 +23,6 @@
 		box-shadow: $box;
 		border-radius: 13px;
     	border: #02181a solid 4px;
-    	width: 1000px;
-	}
-	.container{
-		font-style: black;
-		text-align: center;
+    	width: 60%;
 	}
 }
